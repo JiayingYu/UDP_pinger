@@ -21,7 +21,7 @@ try:
             elapsed = end - start
             print("RTT: " + str(elapsed) + " seconds\n")
         except socket.timeout:
-            print("#" + str(i) + " Time out\n")
+            print("#" + str(i) + " Requested Time out\n")
 
 finally:
     print("closing socket")
